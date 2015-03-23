@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "OldNewspaper";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/Old Newspaper Font.ttf") format("truetype")
+}
+@font-face {
+  font-family: "HandShop";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/HandShop.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "PressStyle";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/Press Style.ttf") format("truetype")
+}
+@font-face {
+  font-family: "PlayfairRegular";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/PlayfairDisplay-Regular.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "PlayfairItalic";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/PlayfairDisplay-Italic.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "LatinModern";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/lmmono10-regular.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "USIS";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/USIS1949.ttf") format("truetype")
+}
+
+@font-face {
+  font-family:"Subway Novella";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/SubwayNovella.ttf") format("truetype")
+}
+@font-face {
+  font-family:"Display Italic";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/PlayfairDisplaySC-BoldItalic.ttf") format("truetype")
+}
+
+@font-face {
+  font-family:"Heavyweight";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/HEAVYWEI.TTF") format("truetype")
+}
+
+@font-face {
+  font-family:"barcode font";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/BarcodeFont.eot") format("eot"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/BarcodeFont.woff") format("woff"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/BarcodeFont.ttf") format("truetype"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/BarcodeFont.svg#barcodefont") format("svg");
+/*  url('/barcode_font/BarcodeFont.woff') format('woff'); */
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+ font-family:"Canterbury Regular";
+ src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/Canterbury.eot?") format("eot"),
+ url("https://s3-us-west-2.amazonaws.com/newz-fonts/Canterbury.woff") format("woff"),
+ url("https://s3-us-west-2.amazonaws.com/newz-fonts/Canterbury.ttf") format("truetype"),
+ url("https://s3-us-west-2.amazonaws.com/newz-fonts/Canterbury.svg#Canterbury-Regular") format("svg");
+ /*src: url('newz-fonts.s3-website-us-west-2.amazonaws.com');*/
+ font-weight:normal;
+ font-style:normal;
+}
+
+@font-face {
+  font-family:"old seals tfb";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/old_seals_tfb.eot?") format("eot"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/old_seals_tfb.woff") format("woff"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/old_seals_tfb.ttf") format("truetype"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/old_seals_tfb.svg#oldsealstfb") format("svg");
+  /*src: url('newz-fonts.s3-website-us-west-2.amazonaws.com-fonts.s3-website-us-west-2.amazonaws.com');*/
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:"Goudy Bookletter 1911 TT";
+  src:url("https://s3-us-west-2.amazonaws.com/newz-fonts/GoudyBookletter1911TT.eot?") format("eot"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/GoudyBookletter1911TT.woff") format("woff"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/GoudyBookletter1911TT.ttf") format("truetype"),
+  url("https://s3-us-west-2.amazonaws.com/newz-fonts/GoudyBookletter1911TT.svg#GoudyBookletter1911TT") format("svg");
+  /*src: url('newz-fonts.s3-website-us-west-2.amazonaws.com');*/
+  font-weight:normal;
+  font-style:normal;
+}
+
