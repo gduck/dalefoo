@@ -1,7 +1,7 @@
 
 <header>
   <p class="heading">welcome to dalefoo.com</p>
-  <p class="heading"><img ng-src="/assets/images/68.GIF"></p>
+  <p class="heading"><img ng-src="/assets/images/tree.gif"></p>
 </header>
 
 
@@ -38,30 +38,36 @@
         <div id="newz" class="project">
           <a ng-href="https://birthday-newz.herokuapp.com/">
             <div class="project-inner">
-              <img ng-src="/assets/images/newz/newz-img.png" class="img-cover">
+              <img ng-src="assets/images/newz/newz-img.png" class="img-cover">
               <video class="img-hide">
                 <source ng-src="/assets/images/newz/newz-mov.mov">
               </video>
-              <p>Birthday Newz</p>
             </div>
           </a>
+          <div class="desc">
+            <a ng-href="https://birthday-newz.herokuapp.com/"><h3>Birthday Newz</h3></a>
+            <p>Birthday Newz takes a date in recent history, and digs up enough information from the web to build a newspaper around that date. The user is able to write an article, heading and upload a picture - and then print or post to Facebook.</p>
+            <p>It uses AngularJS on the front end - perfect for data binding between the user and the newspaper, and Rails on the backend.</p>
+            <p>Birthday Newz does some real time scraping - getting information from other web sites only when the user enters a date. Some other information is pre-scraped, and stored in a Postgres database.</p>
+          </div>
         </div>
       </div>
 
       <div class="cell col-xs-12 col-lg-offset-1 col-lg-5">
         <div id="fritter" class="project">
-          <!-- <a ng-href="https://wdi-fritter.herokuapp.com/"> -->
+          <a ng-href="https://wdi-fritter.herokuapp.com/">
             <div class="project-inner">
               <img ng-src="/assets/images/fritter/fritter-img.png" class="img-cover">
               <video class="vid img-hide">
                 <source ng-src="/assets/images/fritter/fritter-mov.mov">
               </video>
             </div>
-            <div class="desc">
-              <h3>fritter</h3>
-              <p>Inspired by Pinterest, fritter is a mood board for collecting favourites from around the web.</p>
-            </div>
-          <!-- </a> -->
+          </a>
+          <div class="desc">
+            <a ng-href="https://wdi-fritter.herokuapp.com/"><h3>fritter</h3></a>
+            <p>Inspired by Pinterest, fritter is a mood board for collecting favourite snippets. A user may sign up, log in, and collect 'favourites' to show on their own page.</p>
+            <p>Written with Rails on the back end, and AngularJS on the front, fritter uses a graphics package called 'Masonry' to address the problem of laying out cells of varying height.</p>
+          </div>
         </div>
       </div>
 
@@ -69,8 +75,12 @@
         <div id="wantMAW" class="project">
           <a ng-href="https://wantmaw.herokuapp.com/">
             <img ng-src="/assets/images/wantMAW/wantMAW-img.png" class="img-cover">
-            <p>Want MAW</p>
           </a>
+          <div class="desc">
+            <a ng-href="https://wantmaw.herokuapp.com/"><h3>wantMAW</h3></a>
+            <p>Written with Ruby on Rails - front and back end, wantMAW connects translators with those who have project based work available.</p>
+            <p>I used nested forms to access data through it's associated data - eg accessing the 'language profiency' table through the user form.</p>
+          </div>
         </div>
        </div> 
 

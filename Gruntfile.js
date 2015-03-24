@@ -234,7 +234,10 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/public/{,*/}*.js',
             '<%= yeoman.dist %>/public/{,*/}*.css',
-            '<%= yeoman.dist %>/public/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            '<%= yeoman.dist %>/public/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg,mov}',
+            '<%= yeoman.dist %>/public/assets/images/fritter/*.{png,jpg,jpeg,gif,webp,svg,mov}',
+            '<%= yeoman.dist %>/public/assets/images/wantMAW/*.{png,jpg,jpeg,gif,webp,svg,mov}',
+            '<%= yeoman.dist %>/public/assets/images/newz/*.{png,jpg,jpeg,gif,webp,svg,mov}',
             '<%= yeoman.dist %>/public/assets/fonts/*'
           ]
         }
@@ -279,7 +282,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.client %>/assets/images',
-          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          src: '{,*/}*.{png,jpg,jpeg,gif,mov}',
           dest: '<%= yeoman.dist %>/public/assets/images'
         }]
       }
