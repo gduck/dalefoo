@@ -15,12 +15,12 @@
 
 <div class="container">
   <div class="row">
-    <div class="cell col-md-offset-1 col-md-10 col-xs-12">
+    <div class="col-md-offset-1 col-md-10 col-xs-12">
       <div class="section-heading">
         <h1>About Me</h1>
       </div>
       <div class="paragraph">
-        <p>I have just completed a GA Web Development Immersive (March 2015), and now I'm playing with new technology. This site is full stack Angular, scaffolded from <a ng-href="https://github.com/DaftMonk/generator-angular-fullstack">yeoman angular generator</a>.</p>
+        <p>I have just completed a GA Web Development Immersive (March 2015) here in Hong Kong, and now I'm playing with new technology. This site is full stack AngularJS, scaffolded from <a ng-href="https://github.com/DaftMonk/generator-angular-fullstack">yeoman angular generator</a>. I plan to start playing with Meteor next.</p>
         <p>I am looking for projects to work on! You can see me on LinkedIn, or send me an email from here.</p>
       </div>
     </div>
@@ -30,66 +30,96 @@
 
 <div class="container project-container">
   <div class="row">
-    <div class="cell col-md-offset-1 col-md-10 col-xs-12">
+
+    <div class="col-md-offset-1 col-md-10 col-xs-12">
       <div class="section-heading">
         <h1>Recent projects</h1>
       </div>
-      <div class="cell col-xs-12 col-lg-5">
-        <div id="newz" class="project">
-          <a ng-href="https://birthday-newz.herokuapp.com/">
-            <div class="project-inner">
-              <img ng-src="assets/images/newz/newz-img.png" class="img-cover">
-              <video class="img-hide">
-                <source ng-src="/assets/images/newz/newz-mov.mov">
-              </video>
+      <div id="packery-container">
+
+        <div class="cell col-xs-12 col-lg-5">
+          <div id="newz" class="project">
+            <a ng-href="https://birthday-newz.herokuapp.com/">
+              <div class="project-inner">
+                <img ng-src="assets/images/newz/newz-img.png" class="img-cover">
+                <video class="img-hide">
+                  <source ng-src="/assets/images/newz/newz-mov.mov">
+                </video>
+              </div>
+            </a>
+            <div class="desc">
+              <a ng-href="https://birthday-newz.herokuapp.com/"><h3>Birthday Newz</h3></a>
+              <p>Birthday Newz takes a date in recent history, and digs up enough information from the web to build a newspaper around that date. The user is able to write an article, heading and upload a picture - and then print or post to Facebook.</p>
+              <p>It uses AngularJS on the front end - perfect for data binding between the user and the newspaper, and Rails on the backend.</p>
+              <p>Birthday Newz does some real time scraping - getting information from other web sites only when the user enters a date. Some other information is pre-scraped, and stored in a Postgres database.</p>
             </div>
-          </a>
-          <div class="desc">
-            <a ng-href="https://birthday-newz.herokuapp.com/"><h3>Birthday Newz</h3></a>
-            <p>Birthday Newz takes a date in recent history, and digs up enough information from the web to build a newspaper around that date. The user is able to write an article, heading and upload a picture - and then print or post to Facebook.</p>
-            <p>It uses AngularJS on the front end - perfect for data binding between the user and the newspaper, and Rails on the backend.</p>
-            <p>Birthday Newz does some real time scraping - getting information from other web sites only when the user enters a date. Some other information is pre-scraped, and stored in a Postgres database.</p>
           </div>
         </div>
-      </div>
 
-      <div class="cell col-xs-12 col-lg-offset-1 col-lg-5">
-        <div id="fritter" class="project">
-          <a ng-href="https://wdi-fritter.herokuapp.com/">
-            <div class="project-inner">
-              <img ng-src="/assets/images/fritter/fritter-img.png" class="img-cover">
-              <video class="vid img-hide">
-                <source ng-src="/assets/images/fritter/fritter-mov.mov">
-              </video>
+        <div class="cell col-xs-12 col-lg-offset-1 col-lg-5">
+          <div id="fritter" class="project">
+            <a ng-href="https://wdi-fritter.herokuapp.com/">
+              <div class="project-inner">
+                <img ng-src="/assets/images/fritter/fritter-img.png" class="img-cover">
+                <video class="vid img-hide">
+                  <source ng-src="/assets/images/fritter/fritter-mov.mov">
+                </video>
+              </div>
+            </a>
+            <div class="desc">
+              <a ng-href="https://wdi-fritter.herokuapp.com/"><h3>fritter</h3></a>
+              <p>Inspired by Pinterest, fritter is a mood board for collecting favourite snippets. A user may sign up, log in, and collect 'favourites' to show on their own page.</p>
+              <p>Written with Rails on the back end, and AngularJS on the front, fritter uses a graphics package called 'Masonry' to address the problem of laying out cells of varying height.</p>
             </div>
-          </a>
-          <div class="desc">
-            <a ng-href="https://wdi-fritter.herokuapp.com/"><h3>fritter</h3></a>
-            <p>Inspired by Pinterest, fritter is a mood board for collecting favourite snippets. A user may sign up, log in, and collect 'favourites' to show on their own page.</p>
-            <p>Written with Rails on the back end, and AngularJS on the front, fritter uses a graphics package called 'Masonry' to address the problem of laying out cells of varying height.</p>
           </div>
         </div>
+
+
+        <div class="cell col-xs-12 col-lg-5">
+          <div id="wantMAW" class="project">
+            <a ng-href="https://wantmaw.herokuapp.com/">
+              <div class="project-inner">
+                <img ng-src="/assets/images/wantMAW/wantMAW-img.png" class="img-cover">
+                <video class="vid img-hide">
+                  <source ng-src="/assets/images/wantMAW/wantMAW-mov.mov">
+                </video>
+              </div>
+            </a>
+            <div class="desc">
+              <a ng-href="https://wantmaw.herokuapp.com/"><h3>wantMAW</h3></a>
+              <p>Written with Ruby on Rails - front and back end, wantMAW connects translators with those who have project based work available.</p>
+              <p>I used nested forms to access data through it's associated data - eg accessing the 'language profiency' table through the user form.</p>
+            </div>
+          </div>
+        </div> 
+
+
+        <div class="cell col-xs-12 col-lg-5">
+          <div id="math" class="project">
+            <a ng-href="http://tensecondmath.bitballoon.com/">
+              <div class="project-inner">
+                <img ng-src="/assets/images/math/math-img.png" class="img-cover">
+                <video class="vid img-hide">
+                  <source ng-src="/assets/images/math/math-mov.mov">
+                </video>
+              </div>
+            </a>
+            <div class="desc">
+              <a ng-href="https://wantmaw.herokuapp.com/"><h3>10 Seconds of Math</h3></a>
+              <p>Purely javascript. Purely for fun. The first deployment we did in class</p>
+            </div>
+          </div>
+        </div> 
+
       </div>
+      <!-- </div> -->
 
-      <div class="cell col-xs-12 col-lg-5">
-        <div id="wantMAW" class="project">
-          <a ng-href="https://wantmaw.herokuapp.com/">
-            <img ng-src="/assets/images/wantMAW/wantMAW-img.png" class="img-cover">
-          </a>
-          <div class="desc">
-            <a ng-href="https://wantmaw.herokuapp.com/"><h3>wantMAW</h3></a>
-            <p>Written with Ruby on Rails - front and back end, wantMAW connects translators with those who have project based work available.</p>
-            <p>I used nested forms to access data through it's associated data - eg accessing the 'language profiency' table through the user form.</p>
-          </div>
-        </div>
-       </div> 
-
+      <!-- </div> -->
     </div>
   </div>
-
 </div>
 
-<div class="container footer">
+<footer class="container footer">
   <div class="contact-icons">
     <div class="section-heading contact">
       <h1>Contact Me</h1>
@@ -100,7 +130,7 @@
       <img id="" ng-src="">
     </div>
   </div> 
-</div>
+</footer>
 
 
 
