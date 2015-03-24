@@ -50,19 +50,13 @@ angular.module('yeoTestApp')
     // });
 
     var project = $('.project');
-    console.log(project);
     var vid = $('video');
 
     $(project).hover(function() { 
-        console.log('in hover:');
-        // console.log($(this));
         $(this).find($('.img-cover')).addClass('img-hide'); 
         $(this).find($('video')).removeClass('img-hide'); 
-        console.log($(this).find($('.img-cover')));
-        console.log($(this).find($('.vid')));
         // vid.play();
       }, function() {
-        console.log('out of hover');
         $(this).find($('.img-cover')).removeClass('img-hide');
         $(this).find($('video')).addClass('img-hide'); 
         // vid.load();
